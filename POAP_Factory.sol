@@ -23,6 +23,7 @@ contract BuidlersConnectAfrica is ERC721Enumerable, Ownable, ReentrancyGuard {
     using Strings for uint256;
     string public baseURI;
     address private guard; 
+    address private authority; 
     string public author = "0xSorcerer | Builders Connect ";
     bool public paused = false; 
 
